@@ -1,22 +1,27 @@
 #include "ofApp.h"
 
-// 画面いっぱいにランダムにたくさんの円を描く
-float x[1000];
-float y[1000];
-float radius[1000];
+// 画面いっぱいにランダムにたくさんの線を描く
+float start_x[1000];
+float start_y[1000];
+float end_x[1000];
+float end_y[1000];
 
 //--------------------------------------------------------------
 void ofApp::setup(){
     ofBackground(31, 31, 31); // 背景色の設定
     ofEnableAlphaBlending(); // 透明度(アルファチャンネル)を有効にする
+    ofSetLineWidth(2); // 線の太さを設定
+    ofEnableSmoothing(); // 線の描画を滑らかにする
     
-    // 画面いっぱいにランダムにたくさんの円を描く
+    // 画面いっぱいにランダムにたくさんの線を描く
     int i;
     for (i=0; i<1000; i++) {
-        x[i] = ofRandom(0, ofGetWidth()); // x座標は0~横幅一杯まで
-        y[i] = ofRandom(0, ofGetHeight()); // y座標は0~縦幅一杯まで
-        radius[i] = ofRandom(10, 40);
+        start_x[i] = ofRandom(0, ofGetWidth());
+        start_y[i] = ofRandom(0, ofGetHeight());
+        end_x[i] = ofRandom(0, ofGetWidth());
+        end_y[i] = ofRandom(0, ofGetHeight());
     }
+    
 }
 
 //--------------------------------------------------------------
@@ -26,12 +31,13 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    // 画面いっぱいにランダムにたくさんの円を描く
+    // 画面いっぱいにランダムにたくさんの線を描く
     int i;
-    ofSetColor(31, 63, 255, 63); // 描画色を設定
+    ofSetColor(31, 127, 255, 63);
     for (i=0; i<1000; i++) {
-        ofCircle(x[i], y[i], radius[i]);
+        ofLine(start_x[i], start_y[i], end_x[i], end_y[i]);
     }
+
 }
 
 //--------------------------------------------------------------
