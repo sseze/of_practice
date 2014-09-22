@@ -2,6 +2,8 @@
 
 float loc_x; // 円のx座標
 float loc_y; // 円のy座標
+float speed_x; // x軸方向のスピード
+float speed_y; // y軸方向のスピード
 
 //--------------------------------------------------------------
 // 初期化関数: プログラム実行時に1度だけ実行される
@@ -17,6 +19,9 @@ void ofApp::setup(){
     // 円の中心座標を初期化
     loc_x = 0;
     loc_y = 0;
+    // 初速度を定義
+    speed_x = 4;
+    speed_y = 7;
 }
 
 //--------------------------------------------------------------
@@ -26,31 +31,24 @@ void ofApp::setup(){
 /* 更にプログラム的観点から書き換えると... */
 // 変数の値の更新
 void ofApp::update(){
-    loc_x = loc_x + 3;
-    loc_y = loc_y + 2;
-    
-    // もし円の中心が画面右端からはみ出たら、画面左端に移動
-    // 条件1: 右端→左端
-    if (loc_x > ofGetWidth()) {
-        loc_x = 0;
-    }
-    
-    // もし円の中心が画面左端からはみ出たら、画面右端に移動
-    // 条件2: 左端→右端
+    loc_x = loc_x + speed_x;
+    loc_y = loc_y + speed_y;
+
+    // 条件1: 左端で跳ね返る
     if (loc_x < 0) {
-        loc_x = ofGetWidth();
+        speed_x = speed_x * -1;
     }
-    
-    // もし円の中心が画面上端からはみ出たら、画面下端に移動
-    // 条件3: 上端→下端
+    // 条件2: 右端で跳ね返る
+    if (loc_x > ofGetWidth()) {
+        speed_x = speed_x * -1;
+    }
+    // 条件3: 上端で跳ね返る
     if (loc_y < 0) {
-        loc_y = ofGetHeight();
+        speed_y = speed_y * -1;
     }
-    
-    // もし円の中心が画面下端からはみ出たら、画面上端に移動
-    // 条件4: 下端→上端
+    // 条件4: 下端で跳ね返る
     if (loc_y > ofGetHeight()) {
-        loc_y = 0;
+        speed_y = speed_y * -1;
     }
 }
 
