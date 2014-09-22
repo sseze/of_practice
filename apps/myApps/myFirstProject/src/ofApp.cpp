@@ -5,6 +5,7 @@ void ofApp::setup(){
     ofBackground(31, 31, 31); // 背景色の設定
     ofEnableAlphaBlending(); // 透明度(アルファチャンネル)を有効にする
     ofSetCircleResolution(64); // 円の解像度を設定
+    ofSetColor(31, 127, 255, 12); // 描画色の設定
 }
 
 //--------------------------------------------------------------
@@ -14,23 +15,18 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    // 同心円を描く
-    float x;
-    float y;
-    float radius;
-    x = 1024/2;
-    y = 768/2;
-    radius = 30;
-    radius = radius + 30;
-    ofSetColor(31, 127, 255, 127);
-    ofCircle(x, y, radius); // 円を描く
-    ofCircle(x, y, radius+40); // 半径を40増加させて円を描く
-    ofCircle(x, y, radius+80); // 半径を80増加させて円を描く
-    ofCircle(x, y, radius+120); // 半径を120増加させて円を描く
-    ofCircle(x, y, radius+160); // 半径を160増加させて円を描く
-    ofCircle(x, y, radius+200); // 半径を200増加させて円を描く
-    ofCircle(x, y, radius+240); // 半径を240増加させて円を描く
-
+    // 半透明な同心円を規則的に変化させて立体球のような図形を描く
+    float x = ofGetWidth()/2;
+    float y = ofGetHeight()/2;
+    float radius = ofGetWidth()/40;
+    float i;
+    
+    for (i=0; i<50; i++) {
+        x = x + 2;
+        y = y + 3;
+        radius = radius + 4;
+        ofCircle(x, y, radius);
+    }
 }
 
 //--------------------------------------------------------------
