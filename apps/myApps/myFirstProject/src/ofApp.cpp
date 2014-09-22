@@ -1,11 +1,12 @@
 #include "ofApp.h"
 
-static const int NUM = 100; // 円の数を表す定数を定義
+static const int NUM = 1000; // 円の数を表す定数を定義
 
 float loc_x[NUM]; // 円のx座標を保存する配列
 float loc_y[NUM]; // 円のy座標を保存する配列
 float speed_x[NUM]; // x軸方向のスピードを保存する配列
 float speed_y[NUM]; // y軸方向のスピードを保存する配列
+float radius[NUM]; // 円の半径を保存する配列
 
 //--------------------------------------------------------------
 // 初期化関数: プログラム実行時に1度だけ実行される
@@ -24,6 +25,7 @@ void ofApp::setup(){
         loc_y[i] = ofRandom(0, ofGetHeight());
         speed_x[i] = ofRandom(-10, 10);
         speed_y[i] = ofRandom(-10, 10);
+        radius[i] = ofRandom(4, 40);
     }
 }
 
@@ -66,7 +68,7 @@ void ofApp::draw(){
     
     // 円の数だけ描画する
     for (int i=0; i < NUM; i++) {
-        ofCircle(loc_x[i], loc_y[i], 40);
+        ofCircle(loc_x[i], loc_y[i], radius[i]);
     }
 }
 
