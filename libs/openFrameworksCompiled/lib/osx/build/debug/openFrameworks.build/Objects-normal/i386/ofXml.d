@@ -1,11 +1,11 @@
 dependencies: \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworks/utils/ofXml.cpp \
+  /Users/sseze/git/of_practice/libs/openFrameworks/utils/ofXml.cpp \
   ../../../../libs/openFrameworks/utils/ofXml.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/ofMain.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofConstants.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/ofMain.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofConstants.h \
   ../../../../libs/glew/include/GL/glew.h \
   ../../../../libs/tess2/include/tesselator.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofFileUtils.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofFileUtils.h \
   ../../../../libs/poco/include/Poco/File.h \
   ../../../../libs/poco/include/Poco/Foundation.h \
   ../../../../libs/poco/include/Poco/Config.h \
@@ -15,20 +15,20 @@ dependencies: \
   ../../../../libs/poco/include/Poco/Types.h \
   ../../../../libs/poco/include/Poco/Timestamp.h \
   ../../../../libs/poco/include/Poco/File_UNIX.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofLog.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/types/ofTypes.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofLog.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/types/ofTypes.h \
   ../../../../libs/openFrameworks/types/ofColor.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/math/ofMath.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/types/ofPoint.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/math/ofVec3f.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/math/ofMath.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/types/ofPoint.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/math/ofVec3f.h \
   ../../../../libs/openFrameworks/math/ofVec2f.h \
   ../../../../libs/openFrameworks/math/ofVec4f.h \
   ../../../../libs/poco/include/Poco/Mutex.h \
   ../../../../libs/poco/include/Poco/Exception.h \
   ../../../../libs/poco/include/Poco/ScopedLock.h \
   ../../../../libs/poco/include/Poco/Mutex_POSIX.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofSystemUtils.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofThread.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofSystemUtils.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofThread.h \
   ../../../../libs/poco/include/Poco/AtomicCounter.h \
   ../../../../libs/poco/include/Poco/Thread.h \
   ../../../../libs/poco/include/Poco/Thread_POSIX.h \
@@ -38,8 +38,8 @@ dependencies: \
   ../../../../libs/poco/include/Poco/Event_POSIX.h \
   ../../../../libs/poco/include/Poco/RefCountedObject.h \
   ../../../../libs/poco/include/Poco/AutoPtr.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofURLFileLoader.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworks/events/ofEvents.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofURLFileLoader.h \
+  /Users/sseze/git/of_practice/libs/openFrameworks/events/ofEvents.h \
   ../../../../libs/openFrameworks/events/ofEventUtils.h \
   ../../../../libs/poco/include/Poco/PriorityEvent.h \
   ../../../../libs/poco/include/Poco/AbstractEvent.h \
@@ -60,41 +60,41 @@ dependencies: \
   ../../../../libs/openFrameworks/events/ofDelegate.h \
   ../../../../libs/poco/include/Poco/Condition.h \
   ../../../../libs/poco/include/Poco/ScopedUnlock.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.h \
   ../../../../libs/poco/include/Poco/Path.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/types/ofBaseTypes.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/types/ofBaseTypes.h \
   ../../../../libs/openFrameworks/types/ofRectangle.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/3d/ofMesh.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/gl/ofGLUtils.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofPixels.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/math/ofMatrix4x4.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/3d/ofMesh.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/gl/ofGLUtils.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofPixels.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/math/ofMatrix4x4.h \
   ../../../../libs/openFrameworks/math/ofQuaternion.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/types/ofParameter.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/types/ofParameterGroup.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/types/ofParameter.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/types/ofParameterGroup.h \
   ../../../../libs/poco/include/Poco/Any.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/math/ofVectorMath.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/math/ofVectorMath.h \
   ../../../../libs/openFrameworks/math/ofMatrix3x3.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworks/communication/ofSerial.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworks/communication/ofArduino.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/gl/ofFbo.h \
+  /Users/sseze/git/of_practice/libs/openFrameworks/communication/ofSerial.h \
+  /Users/sseze/git/of_practice/libs/openFrameworks/communication/ofArduino.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/gl/ofFbo.h \
   ../../../../libs/openFrameworks/gl/ofTexture.h \
   ../../../../libs/openFrameworks/gl/ofVboMesh.h \
   ../../../../libs/openFrameworks/gl/ofVbo.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/gl/ofGLRenderer.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofPolyline.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofGraphics.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofMatrixStack.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/gl/ofLight.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/3d/ofNode.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/gl/ofGLRenderer.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofPolyline.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofGraphics.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofMatrixStack.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/gl/ofLight.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/3d/ofNode.h \
   ../../../../libs/openFrameworks/3d/of3dUtils.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/of3dGraphics.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/3d/of3dPrimitives.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/gl/ofMaterial.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/gl/ofShader.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/of3dGraphics.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/3d/of3dPrimitives.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/gl/ofMaterial.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/gl/ofShader.h \
   ../../../../libs/poco/include/Poco/RegularExpression.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworks/app/ofAppBaseWindow.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/gl/ofGLProgrammableRenderer.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofCairoRenderer.h \
+  /Users/sseze/git/of_practice/libs/openFrameworks/app/ofAppBaseWindow.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/gl/ofGLProgrammableRenderer.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofCairoRenderer.h \
   ../../../../libs/cairo/include/cairo/cairo-features.h \
   ../../../../libs/cairo/include/cairo/cairo-pdf.h \
   ../../../../libs/cairo/include/cairo/cairo.h \
@@ -103,15 +103,15 @@ dependencies: \
   ../../../../libs/cairo/include/cairo/cairo-svg.h \
   ../../../../libs/openFrameworks/graphics/ofPath.h \
   ../../../../libs/openFrameworks/graphics/ofTessellator.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofImage.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofRendererCollection.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTrueTypeFont.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworks/app/ofBaseApp.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworks/app/ofAppRunner.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofImage.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofRendererCollection.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofTrueTypeFont.h \
+  /Users/sseze/git/of_practice/libs/openFrameworks/app/ofBaseApp.h \
+  /Users/sseze/git/of_practice/libs/openFrameworks/app/ofAppRunner.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundStream.h \
   ../../../../libs/openFrameworks/sound/ofBaseSoundStream.h \
   ../../../../libs/openFrameworks/sound/ofRtAudioSoundStream.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundPlayer.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/sound/ofSoundPlayer.h \
   ../../../../libs/openFrameworks/sound/ofBaseSoundPlayer.h \
   ../../../../libs/openFrameworks/sound/ofFmodSoundPlayer.h \
   ../../../../libs/fmodex/include/fmod.h \
@@ -119,12 +119,12 @@ dependencies: \
   ../../../../libs/fmodex/include/fmod_dsp.h \
   ../../../../libs/fmodex/include/fmod_memoryinfo.h \
   ../../../../libs/fmodex/include/fmod_errors.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworks/video/ofVideoGrabber.h \
+  /Users/sseze/git/of_practice/libs/openFrameworks/video/ofVideoGrabber.h \
   ../../../../libs/openFrameworks/video/ofQTKitGrabber.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworks/video/ofVideoPlayer.h \
+  /Users/sseze/git/of_practice/libs/openFrameworks/video/ofVideoPlayer.h \
   ../../../../libs/openFrameworks/video/ofQTKitPlayer.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/3d/ofCamera.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/3d/ofEasyCam.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/3d/ofCamera.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/3d/ofEasyCam.h \
   ../../../../libs/poco/include/Poco/DOM/Document.h \
   ../../../../libs/poco/include/Poco/XML/XML.h \
   ../../../../libs/poco/include/Poco/DOM/AbstractContainerNode.h \

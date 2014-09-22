@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworks/video/ofQTKitMovieRenderer.m \
+  /Users/sseze/git/of_practice/libs/openFrameworks/video/ofQTKitMovieRenderer.m \
   ../../../../libs/openFrameworks/video/ofQTKitMovieRenderer.h

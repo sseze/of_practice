@@ -1,12 +1,12 @@
 dependencies: \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworks/types/ofParameter.cpp \
+  /Users/sseze/git/of_practice/libs/openFrameworks/types/ofParameter.cpp \
   ../../../../libs/openFrameworks/types/ofParameter.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworks/events/ofEvents.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofConstants.h \
+  /Users/sseze/git/of_practice/libs/openFrameworks/events/ofEvents.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofConstants.h \
   ../../../../libs/glew/include/GL/glew.h \
   ../../../../libs/tess2/include/tesselator.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/types/ofPoint.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/math/ofVec3f.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/types/ofPoint.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/math/ofVec3f.h \
   ../../../../libs/openFrameworks/math/ofVec2f.h \
   ../../../../libs/openFrameworks/math/ofVec4f.h \
   ../../../../libs/openFrameworks/events/ofEventUtils.h \
@@ -49,8 +49,8 @@ dependencies: \
   ../../../../libs/openFrameworks/events/ofDelegate.h \
   ../../../../libs/openFrameworks/types/ofTypes.h \
   ../../../../libs/openFrameworks/types/ofColor.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/math/ofMath.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/math/ofMath.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.h \
   ../../../../libs/openFrameworks/utils/ofLog.h \
   ../../../../libs/openFrameworks/utils/ofFileUtils.h \
   ../../../../libs/poco/include/Poco/File.h \

@@ -1,27 +1,21 @@
 #include "ofApp.h"
 
-// 画面いっぱいにランダムにたくさんの線を描く
-float start_x[1000];
-float start_y[1000];
-float end_x[1000];
-float end_y[1000];
+// 画面上から1pxずつ横にランダムなグラデーションを作る
+float red[768];
+float green[768];
+float blue[768];
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-    ofBackground(31, 31, 31); // 背景色の設定
-    ofEnableAlphaBlending(); // 透明度(アルファチャンネル)を有効にする
-    ofSetLineWidth(2); // 線の太さを設定
-    ofEnableSmoothing(); // 線の描画を滑らかにする
+    ofBackground(0, 0, 0);
     
-    // 画面いっぱいにランダムにたくさんの線を描く
+    // 画面上から1pxずつ横にランダムなグラデーションを作る
     int i;
-    for (i=0; i<1000; i++) {
-        start_x[i] = ofRandom(0, ofGetWidth());
-        start_y[i] = ofRandom(0, ofGetHeight());
-        end_x[i] = ofRandom(0, ofGetWidth());
-        end_y[i] = ofRandom(0, ofGetHeight());
+    for (i=0; i<768; i++) { // 1pxごとにランダムに色を生成
+        red[i] = ofRandom(0, 255);
+        green[i] = ofRandom(0, 255);
+        blue[i] = ofRandom(0, 255);
     }
-    
 }
 
 //--------------------------------------------------------------
@@ -31,13 +25,12 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    // 画面いっぱいにランダムにたくさんの線を描く
+    // 画面上から1pxずつ横にランダムなグラデーションを作る
     int i;
-    ofSetColor(31, 127, 255, 63);
-    for (i=0; i<1000; i++) {
-        ofLine(start_x[i], start_y[i], end_x[i], end_y[i]);
+    for (i=0; i<768; i++) {
+        ofSetColor(red[i], green[i], blue[i]);
+        ofLine(0, i, ofGetWidth(), i);
     }
-
 }
 
 //--------------------------------------------------------------

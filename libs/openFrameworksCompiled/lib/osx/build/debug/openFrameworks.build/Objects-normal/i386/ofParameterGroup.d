@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworks/types/ofParameterGroup.cpp \
+  /Users/sseze/git/of_practice/libs/openFrameworks/types/ofParameterGroup.cpp \
   ../../../../libs/openFrameworks/types/ofParameterGroup.h \
   ../../../../libs/poco/include/Poco/Any.h \
   ../../../../libs/poco/include/Poco/Exception.h \
@@ -9,26 +9,26 @@ dependencies: \
   ../../../../libs/poco/include/Poco/Platform_POSIX.h \
   ../../../../libs/poco/include/Poco/Bugcheck.h \
   ../../../../libs/poco/include/Poco/Types.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofConstants.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofConstants.h \
   ../../../../libs/glew/include/GL/glew.h \
   ../../../../libs/tess2/include/tesselator.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofLog.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofLog.h \
   ../../../../libs/openFrameworks/utils/ofFileUtils.h \
   ../../../../libs/poco/include/Poco/File.h \
   ../../../../libs/poco/include/Poco/Timestamp.h \
   ../../../../libs/poco/include/Poco/File_UNIX.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/types/ofTypes.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/types/ofTypes.h \
   ../../../../libs/openFrameworks/types/ofColor.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/math/ofMath.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/types/ofPoint.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/math/ofVec3f.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/math/ofMath.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/types/ofPoint.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/math/ofVec3f.h \
   ../../../../libs/openFrameworks/math/ofVec2f.h \
   ../../../../libs/openFrameworks/math/ofVec4f.h \
   ../../../../libs/poco/include/Poco/Mutex.h \
   ../../../../libs/poco/include/Poco/ScopedLock.h \
   ../../../../libs/poco/include/Poco/Mutex_POSIX.h \
   ../../../../libs/openFrameworks/types/ofParameter.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworks/events/ofEvents.h \
+  /Users/sseze/git/of_practice/libs/openFrameworks/events/ofEvents.h \
   ../../../../libs/openFrameworks/events/ofEventUtils.h \
   ../../../../libs/poco/include/Poco/PriorityEvent.h \
   ../../../../libs/poco/include/Poco/AbstractEvent.h \
@@ -56,5 +56,5 @@ dependencies: \
   ../../../../libs/poco/include/Poco/PriorityExpire.h \
   ../../../../libs/poco/include/Poco/FunctionPriorityDelegate.h \
   ../../../../libs/openFrameworks/events/ofDelegate.h \
-  /Users/sseze/Desktop/of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.h \
+  /Users/sseze/git/of_practice/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.h \
   ../../../../libs/poco/include/Poco/Path.h
