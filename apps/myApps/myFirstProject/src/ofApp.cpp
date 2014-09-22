@@ -12,9 +12,9 @@ void ofApp::setup(){
     // 画面上から1pxずつ横にランダムなグラデーションを作る
     int i;
     for (i=0; i<768; i++) { // 1pxごとにランダムに色を生成
-        red[i] = ofRandom(0, 255);
-        green[i] = ofRandom(0, 255);
-        blue[i] = ofRandom(0, 255);
+        red[i] = ofRandom(0, 31);
+        green[i] = ofRandom(63, 127);
+        blue[i] = ofRandom(127, 255);
     }
 }
 
