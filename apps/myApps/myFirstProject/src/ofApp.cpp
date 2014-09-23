@@ -1,12 +1,7 @@
 #include "ofApp.h"
 
-static const int NUM = 1000; // 円の数を表す定数を定義
-
-float loc_x[NUM]; // 円のx座標を保存する配列
-float loc_y[NUM]; // 円のy座標を保存する配列
-float speed_x[NUM]; // x軸方向のスピードを保存する配列
-float speed_y[NUM]; // y軸方向のスピードを保存する配列
-float radius[NUM]; // 円の半径を保存する配列
+float loc_x, loc_y;
+int red, green, blue;
 
 //--------------------------------------------------------------
 // 初期化関数: プログラム実行時に1度だけ実行される
@@ -16,17 +11,17 @@ float radius[NUM]; // 円の半径を保存する配列
 // 画面サイズ、フレームレート、背景色設定、描画設定、変数初期化
 void ofApp::setup(){
     ofBackground(0, 0, 0);
-    ofSetFrameRate(60); // フレームレートを60fpsに
-    ofSetCircleResolution(64); // 円の解像度を設定
+    ofSetFrameRate(60); // フレームレート
+    ofSetCircleResolution(64); // 解像度
    
-    // NUMの数だけ初期値を生成
-    for (int i=0; i < NUM; i++) {
-        loc_x[i] = ofRandom(0, ofGetWidth());
-        loc_y[i] = ofRandom(0, ofGetHeight());
-        speed_x[i] = ofRandom(-10, 10);
-        speed_y[i] = ofRandom(-10, 10);
-        radius[i] = ofRandom(4, 40);
-    }
+    // 円の初期位置
+    loc_x = ofGetWidth() / 2;
+    loc_y = ofGetHeight() / 2;
+    
+    // 円の初期色
+    red = 31;
+    green = 63;
+    blue = 255;
 }
 
 //--------------------------------------------------------------
@@ -36,25 +31,6 @@ void ofApp::setup(){
 /* 更にプログラム的観点から書き換えると... */
 // 変数の値の更新
 void ofApp::update(){
-    // NUM個分の円の更新条件を定義する
-    for (int i=0; i < NUM; i++) {
-        loc_x[i] = loc_x[i] + speed_x[i];
-        loc_y[i] = loc_y[i] + speed_y[i];
-        
-        // 円の跳ね返り条件
-        if (loc_x[i] < 0) {
-            speed_x[i] = speed_x[i] * -1;
-        }
-        if (loc_x[i] > ofGetWidth()) {
-            speed_x[i] = speed_x[i] * -1;
-        }
-        if (loc_y[i] < 0) {
-            speed_y[i] = speed_y[i] * -1;
-        }
-        if (loc_y[i] > ofGetHeight()) {
-            speed_y[i] = speed_y[i] * -1;
-        }
-    }
 }
 
 //--------------------------------------------------------------
@@ -64,12 +40,8 @@ void ofApp::update(){
 /* 更にプログラム的観点から書き換えると... */
 // 描画
 void ofApp::draw(){
-    ofSetColor(31, 63, 255, 127); // 描画色の設定
-    
-    // 円の数だけ描画する
-    for (int i=0; i < NUM; i++) {
-        ofCircle(loc_x[i], loc_y[i], radius[i]);
-    }
+    ofSetColor(red, green, blue); // 描画色
+    ofCircle(loc_x, loc_y, 40); // マウスの現在位置を中心に円を描く
 }
 
 //--------------------------------------------------------------
@@ -84,23 +56,41 @@ void ofApp::keyReleased(int key){
 }
 
 //--------------------------------------------------------------
+// マウスを移動したときを検知して実行する
 void ofApp::mouseMoved(int x, int y ){
-
+    red = 127;
+    green = 127;
+    blue = 127;
 }
 
 //--------------------------------------------------------------
+// マウスをドラッグしたときを検知して実行する
 void ofApp::mouseDragged(int x, int y, int button){
-
+    // 円の中心位置をマウスの位置に
+    loc_x = x;
+    loc_y = y;
 }
 
 //--------------------------------------------------------------
+// マウスをクリックしたときを検知して実行する
 void ofApp::mousePressed(int x, int y, int button){
-
+    // 円の中心位置をマウスの位置に
+    loc_x = x;
+    loc_y = y;
+    
+    // 円の色を赤に
+    red = 255;
+    green = 63;
+    blue = 31;
 }
 
 //--------------------------------------------------------------
+// クリックされていたマウスのボタンがリリースされたときに実行する
 void ofApp::mouseReleased(int x, int y, int button){
-
+    // 円の色を青に
+    red = 31;
+    green = 63;
+    blue = 255;
 }
 
 //--------------------------------------------------------------
