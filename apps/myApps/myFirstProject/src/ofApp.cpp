@@ -11,6 +11,8 @@ float red[NUM];
 float green[NUM];
 float blue[NUM];
 bool mouse_pressed; // マウスがクリックされたか？
+float gravity; // 重力
+float friction; // 摩擦
 
 //--------------------------------------------------------------
 // 初期化関数: プログラム実行時に1度だけ実行される
@@ -25,13 +27,15 @@ void ofApp::setup(){
     ofEnableAlphaBlending(); // アルファチャンネル(透過)を有効にする
     
     mouse_pressed = false; // マウスがクリックされていない状態で初期化
+    gravity = 0.1;
+    friction = 0.999;
     
     for (int i=0; i<NUM; i++) {
         loc_x[i] = ofRandom(0, ofGetWidth());
         loc_y[i] = ofRandom(0, ofGetHeight());
         speed_x[i] = ofRandom(-5, 5);
         speed_y[i] = ofRandom(-5, 5);
-        radius[i] = ofRandom(4, 40);
+        radius[i] = ofRandom(1, 10);
         red[i] = ofRandom(0, 255);
         green[i] = ofRandom(0, 255);
         blue[i] = ofRandom(0, 255);
@@ -54,6 +58,10 @@ void ofApp::update(){
             // マウスのy座標と円のy座標の距離の1/8だけ接近
             speed_y[i] = (mouseY - loc_y[i]) / 8.0;
         }
+        
+        speed_x[i] = speed_x[i] * friction; // x軸方向の摩擦力の影響を計算
+        speed_y[i] = speed_y[i] * friction; // y軸方向の摩擦力の影響を計算
+        speed_y[i] = speed_y[i] + gravity; // 重力の影響を計算
         
         // 円の座標を更新
         loc_x[i] = loc_x[i] + speed_x[i];
